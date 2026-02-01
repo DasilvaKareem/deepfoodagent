@@ -61,6 +61,25 @@ export const chatModels: ChatModel[] = [
     provider: "xai",
     description: "Fast with 30K context",
   },
+  // Groq
+  {
+    id: "groq/compound",
+    name: "Groq Compound",
+    provider: "groq",
+    description: "Groq's compound AI system for complex reasoning",
+  },
+  {
+    id: "groq/llama-3.3-70b-versatile",
+    name: "Llama 3.3 70B",
+    provider: "groq",
+    description: "Fast inference with Llama 3.3",
+  },
+  {
+    id: "groq/mixtral-8x7b-32768",
+    name: "Mixtral 8x7B",
+    provider: "groq",
+    description: "Fast Mixtral with 32K context",
+  },
   // Reasoning models (extended thinking)
   {
     id: "anthropic/claude-3.7-sonnet-thinking",
